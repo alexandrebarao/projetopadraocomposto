@@ -98,6 +98,14 @@ public class ProjetoPadraoComposto {
         
         c3.informacao();
         
+        Composto cL = new Composto();
+        cL.setNome("Caixa #L de Luis");
+        
+        Simples s99  = new Simples();
+        s99.setNome("Marcador Luis");
+        System.out.println("Teste Luis aparece?");
+        cL.adicionaElemento(s99);
+        
     }
     
 }
