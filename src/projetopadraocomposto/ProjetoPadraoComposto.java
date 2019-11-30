@@ -98,6 +98,27 @@ public class ProjetoPadraoComposto {
         
         c3.informacao();
         
+        
+        System.out.println("------------------------------");
+        
+        Simples c5 = new Simples();
+        c5.setNome("Marcador Sergio");
+        c5.setPreco(50);
+        
+        Simples c6 = new Simples();
+        c6.setNome("Marcador Sergio Special Edition");
+        c6.setPreco(150);
+        
+        
+        Composto c4 = new Composto();
+        c4.setNome("Caixa Marcadores Sergio");
+        
+     
+        c4.adicionaElemento(c5);
+        c4.adicionaElemento(c6);
+        
+        c4.informacao();
+        
     }
     
 }
