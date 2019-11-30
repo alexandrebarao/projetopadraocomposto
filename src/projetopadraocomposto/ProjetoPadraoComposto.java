@@ -91,7 +91,7 @@ public class ProjetoPadraoComposto {
 //        c2.informacao();
 
         Composto c3 = new Composto();
-        c3.setNome("Volume de caixas");
+        c3.setNome("Volume de caixas...");
         
         c3.adicionaElemento(c1);
         c3.adicionaElemento(c2);
