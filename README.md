@@ -10,7 +10,9 @@ Os alunos devem clonar este reposítório e desenvolver e testar a sua proposta 
 
 git>ignore>exclude from commit 
 
-sobre ficheiros que não vão atualizar de modo a que só façam push da nova classe do seu branch. 
+sobre ficheiros que não vão atualizar de modo a que só façam push da nova classe do seu branch.
+Para tal, basta no Netbeans abrirem o menu de contexto sobre cada classe que pretendem excluir do commit
+e procurar o menu.
 
 No momento do push devem garantir que estão a fazer push no sentido 
 
