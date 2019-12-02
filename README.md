@@ -4,7 +4,7 @@ O objetivo é cada aluno desenvolver uma classe nova no seu branch.
 
 É dado o exemplo com a classe EquipamentoFotografico. 
 
-Os alunos devem clonar este reposítório e desenvolver e testar a sua proposta de classe usando o padrão composto. 
+Os alunos devem clonar este reposítório (Menu Team) e desenvolver e testar a sua proposta de classe usando o padrão composto. 
 
 É também uma oportunidade para efetuarem 
 
@@ -14,7 +14,7 @@ sobre ficheiros que não vão atualizar de modo a que só façam push da nova cl
 Para tal, basta no Netbeans abrirem o menu de contexto sobre cada classe que pretendem excluir do commit
 e procurar o menu.
 
-No momento do push devem garantir que estão a fazer push no sentido 
+Depois dos necessários commits, no momento do push devem garantir que estão a fazer push no sentido 
 
 seu branch --> master 
 
