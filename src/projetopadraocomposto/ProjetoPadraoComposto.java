@@ -15,97 +15,9 @@ public class ProjetoPadraoComposto {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         
-//        Simples s1 = new Simples();
-//        s1.setNome("Rato");
-//        s1.setPreco(12);
-//        
-//        Simples s2 = new Simples();
-//        s2.setNome("Teclado");
-//        s2.setPreco(22);
-//        
-//        Simples s3 = new Simples();
-//        s3.setNome("Monitor");
-//        s3.setPreco(80);
-//        
-////        s1.informacao();
-////        s2.informacao();
-////        s3.informacao();
-//        
-//        Composto c1 = new Composto();
-//        c1.setNome("PC");
-//        c1.adicionaElemento(s1);
-//        c1.adicionaElemento(s2);
-//        c1.adicionaElemento(s3);
-//        
-////        c1.informacao();
-//        
-//        Simples s4 = new Simples();
-//        s4.setNome("Mesa");
-//        s4.setPreco(100);
-//        
-//        Composto c2 = new Composto();
-//        c2.setNome("Equipamento");
-//        c2.adicionaElemento(c1);
-//        c2.adicionaElemento(s4);
-//        
-//        c2.informacao();
-        
-        Composto c1 = new Composto();
-        c1.setNome("Caixa #1 de marcadores");
-        
-        Simples s1  = new Simples();
-        s1.setNome("Marcador 1");
-        s1.setPreco(1);
-        
-        Simples s2  = new Simples();
-        s2.setNome("Marcador 2");
-        s2.setPreco(1);
-
-        Simples s3  = new Simples();
-        s3.setNome("Marcador 3");
-        s3.setPreco(1);
-
-        c1.adicionaElemento(s1);
-        c1.adicionaElemento(s2);
-        c1.adicionaElemento(s3);
-        
-//        c1.informacao();
-
-        
-        Composto c2 = new Composto();
-        c2.setNome("Caixa #2 de marcadores");
-        
-        Simples s21  = new Simples();
-        s21.setNome("Marcador A");
-        s21.setPreco(1);
-        
-        Simples s22  = new Simples();
-        s22.setNome("Marcador B");
-        s22.setPreco(1);
-
-        c2.adicionaElemento(s21);
-        c2.adicionaElemento(s22);
-               
-//        c2.informacao();
-
-        Composto c3 = new Composto();
-        c3.setNome("Volume de caixas!");
-        
-        c3.adicionaElemento(c1);
-        c3.adicionaElemento(c2);
-        
-        c3.informacao();
-        
-        Composto cL = new Composto();
-        cL.setNome("Caixa #L de Luis");
-        
-        Simples s99  = new Simples();
-        s99.setNome("Marcador Luis");
-        System.out.println("Teste Luis aparece?");
-        cL.adicionaElemento(s99);
-        
+        EquipamentoFotografico f = new EquipamentoFotografico();
+        f.informacao();
     }
     
 }
