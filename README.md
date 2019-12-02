@@ -18,7 +18,7 @@ No momento do push devem garantir que estão a fazer push no sentido
 
 seu branch --> master 
 
-Depois disto, já no github, se tudo estiver ok, devem fazer um Merge request para o administrador
+Depois disto, já no github, se tudo estiver ok, devem fazer um Pull Merge request para o administrador
 juntar a vossa classe ao master do repositório. Para tal, devem ser colaboradores do projeto.. 
 
 É este o processo. Bom trabalho! 
