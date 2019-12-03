@@ -16,8 +16,11 @@ public class ProjetoPadraoComposto {
      */
     public static void main(String[] args) {
         
-        EquipamentoFotografico f = new EquipamentoFotografico();
-        f.informacao();
+        /*EquipamentoFotografico f = new EquipamentoFotografico();
+        f.informacao();*/
+
+        Motos bike = new Motos();
+        bike.infoMotos();
     }
     
 }

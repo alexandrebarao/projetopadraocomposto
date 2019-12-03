@@ -16,7 +16,7 @@ public class Simples extends Componente {
       }
     
       public void informacao() {
-        System.out.println(getNome() + " Preço=" + getPreco());
+          System.out.println("Marca: " + getNome() + "\nModelo: " + getModelo() + "\nPreço: " + getPreco());
       }
     
     
