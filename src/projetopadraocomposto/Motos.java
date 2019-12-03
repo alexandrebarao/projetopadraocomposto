@@ -2,11 +2,11 @@ package projetopadraocomposto;
 
 public class Motos {
     Composto minhasMotos;
-
+//======================================================================================================
     public Motos(){
 
         minhasMotos = new Composto();
-        minhasMotos.setNome("\tBikes Guilherme".toUpperCase());
+        minhasMotos.setNome("\n\n\tBikes Guilherme\n".toUpperCase());
 
         Simples sim;
         SimplesDois simp;
@@ -19,7 +19,7 @@ public class Motos {
 
         Composto opcionais = new Composto();
 
-        opcionais.setNome("\n\n\tOpcionais Moto\n");
+        opcionais.setNome("\n\n\tOpcionais Moto\n".toUpperCase());
 
         simp = new SimplesDois();
         simp.setNome("Freio ABS");
@@ -43,6 +43,7 @@ public class Motos {
 
         minhasMotos.adicionaElemento(opcionais);
     }
+//======================================================================================================
     public void infoMotos(){
         minhasMotos.informacao();
     }
