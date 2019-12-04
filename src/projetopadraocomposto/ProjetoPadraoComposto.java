@@ -52,86 +52,8 @@ public class ProjetoPadraoComposto {
 //        
 //        c2.informacao();
         
-        Composto c1 = new Composto();
-        c1.setNome("Skateboard");
-        
-        Simples s1  = new Simples();
-        s1.setNome("Tabua");
-        s1.setPreco(50);
-        
-        Simples s2  = new Simples();
-        s2.setNome("Grip tape");
-        s2.setPreco(10);
-        
-        Composto c2 = new Composto();
-        c2.setNome("Wheels");
-        
-        Simples s21 = new Simples();
-        s21.setNome("Wheel #1");
-        s21.setPreco(5);
-        
-        Simples s22 = new Simples();
-        s22.setNome("Wheel #2");
-        s22.setPreco(5);
-        
-        Simples s23 = new Simples();
-        s23.setNome("Wheel #3");
-        s23.setPreco(5);
-        
-        Simples s24 = new Simples();
-        s24.setNome("Wheel #4");
-        s24.setPreco(5);
-        
-        c2.adicionaElemento(s21);
-        c2.adicionaElemento(s22);
-        c2.adicionaElemento(s23);
-        c2.adicionaElemento(s24);
-        
-        Composto c3 = new Composto();
-        c3.setNome("Trucks");
-        
-        Simples s31 = new Simples();
-        s31.setNome("Truck #1");
-        s31.setPreco(20);
-        
-        Simples s32 = new Simples();
-        s32.setNome("Truck #2");
-        s32.setPreco(20);
-        
-        c3.adicionaElemento(s31);
-        c3.adicionaElemento(s32);
-        
-        Composto c4 = new Composto();
-        c4.setNome("Bearings");
-        
-        Simples s41 = new Simples();
-        s41.setNome("Bearings #1");
-        s41.setPreco(2.5);
-        
-        Simples s42 = new Simples();
-        s42.setNome("Bearings #2");
-        s42.setPreco(42);
-        
-        Simples s43 = new Simples();
-        s43.setNome("Bearings #3");
-        s43.setPreco(2.5);
-        
-        Simples s44 = new Simples();
-        s44.setNome("Bearings #4");
-        s44.setPreco(2.5);
-        
-        c4.adicionaElemento(s41);
-        c4.adicionaElemento(s42);
-        c4.adicionaElemento(s43);
-        c4.adicionaElemento(s44);
-        
-        c1.adicionaElemento(s1);
-        c1.adicionaElemento(s2);
-        c1.adicionaElemento(c2);
-        c1.adicionaElemento(c3);
-        c1.adicionaElemento(c4);
-        
-        c1.informacao();
+        Skate s = new Skate();
+        s.informacao();
 
         
     }

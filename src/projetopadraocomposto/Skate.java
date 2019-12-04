@@ -119,7 +119,9 @@ public class Skate {
     meuSkate.adicionaElemento(c3);
     meuSkate.adicionaElemento(c4);
 
-    meuSkate.informacao();
-
+    }
+    
+    public void informacao() {
+        meuSkate.informacao();
     }
 }
