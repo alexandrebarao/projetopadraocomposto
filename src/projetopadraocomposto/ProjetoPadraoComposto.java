@@ -1,6 +1,7 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
+ * To change this template file, choose Tools | Templates  
  * and open the template in the editor.
  */
 package projetopadraocomposto;
@@ -91,21 +92,40 @@ public class ProjetoPadraoComposto {
 //        c2.informacao();
 
         Composto c3 = new Composto();
-        c3.setNome("Volume de caixas");
+        c3.setNome("Volume de caixas!");
         
         c3.adicionaElemento(c1);
         c3.adicionaElemento(c2);
         
         c3.informacao();
         
-        Composto cL = new Composto();
-        cL.setNome("Caixa #L de Luis");
         
-        Simples s99  = new Simples();
-        s99.setNome("Marcador Luis");
-        System.out.println("Teste Luis aparece?");
-        cL.adicionaElemento(s99);
+        System.out.println("------------------------------");
         
+        Simples c5 = new Simples();
+        c5.setNome("Marcador Sergio");
+        c5.setPreco(50);
+        
+        Simples c6 = new Simples();
+        c6.setNome("Marcador Sergio Special Edition");
+        c6.setPreco(150);
+        
+        
+        Composto c4 = new Composto();
+        c4.setNome("Caixa Marcadores Sergio");
+        
+     
+        c4.adicionaElemento(c5);
+        c4.adicionaElemento(c6);
+        
+        c4.informacao();
+        
+      
+        Skate s = new Skate();
+        s.informacao();
     }
     
 }
+
+
+
