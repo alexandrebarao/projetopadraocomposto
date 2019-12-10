@@ -120,8 +120,12 @@ public class ProjetoPadraoComposto {
         
         c4.informacao();
         
+      
+        Skate s = new Skate();
+        s.informacao();
     }
     
 }
+
 
 
